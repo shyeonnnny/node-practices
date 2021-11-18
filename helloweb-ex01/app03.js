@@ -5,7 +5,6 @@ const port = 8080;
 const app = connect();
 
 app.use(serveStatic(__dirname + "/public"));
-
 app.listen(port, function(){
-    console.log(`http server running on ${port}`)
+    console.log(`http server running on ${port}`);
 });

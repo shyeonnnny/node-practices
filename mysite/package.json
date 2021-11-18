@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "moment": "^2.29.1",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.9.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "nodemon": "^2.0.15"
+  },
+  "name": "mysite",
+  "description": "```bash\r [mysite] $ npm i express\r [mysite] $ npm i ejs\r [mysite] $ npm i mysql2\r [mysite] $ npm i express-session\r [mysite] $ npm i sequelize\r [mysite] $ npm i dotenv\r [mysite] $ npm i multer\r [mysite] $ npm i winston\r [mysite] $ npm i winston-daily-rotate-file\r [mysite] $ npm i moment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon index.js",
+    "test": "npx mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
